@@ -1,0 +1,468 @@
+{
+  "department": {
+    "name": "Jabatan Teknologi Maklumat & Komunikasi",
+    "short": "JTMK",
+    "institution": "Politeknik Sultan Mizan Zainal Abidin",
+    "theme": {
+      "primary": "#003366",
+      "accent": "#C9A84C"
+    }
+  },
+  "lecturers": [
+    {
+      "id": "LEC001",
+      "personal": {
+        "title": "Dr.",
+        "name": "Ahmad Fadzillah bin Mohd Noor",
+        "photo": "/assets/photos/lec001.jpg",
+        "gender": "male"
+      },
+      "academic": {
+        "rank": "Senior Lecturer",
+        "specialization": "Artificial Intelligence & Machine Learning",
+        "subjects": [
+          "Artificial Intelligence",
+          "Machine Learning Fundamentals",
+          "Data Mining"
+        ],
+        "officeRoom": "JTMK-201"
+      },
+      "contact": {
+        "extension": "3201",
+        "email": "ahmadFadzillah@psmza.edu.my",
+        "phone": "09-6952201"
+      },
+      "status": {
+        "current": "available",
+        "location": "Office JTMK-201",
+        "detail": "Available for consultation",
+        "availableFrom": null,
+        "returnDate": null,
+        "updatedAt": "2025-07-14T08:05:00+08:00",
+        "updatedBy": "system"
+      },
+      "schedule": [
+        {
+          "day": "Monday",
+          "slots": [
+            { "time": "08:00–10:00", "subject": "Artificial Intelligence", "room": "Lab AI-01", "group": "CS3A" },
+            { "time": "14:00–16:00", "subject": "Data Mining", "room": "Lab AI-01", "group": "CS3B" }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [
+            { "time": "10:00–12:00", "subject": "Machine Learning Fundamentals", "room": "Lab AI-02", "group": "CS2A" }
+          ]
+        },
+        {
+          "day": "Friday",
+          "slots": [
+            { "time": "08:00–10:00", "subject": "Artificial Intelligence", "room": "Lab AI-01", "group": "CS3B" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LEC002",
+      "personal": {
+        "title": "Ts.",
+        "name": "Nurul Aina binti Zulkifli",
+        "photo": "/assets/photos/lec002.jpg",
+        "gender": "female"
+      },
+      "academic": {
+        "rank": "Lecturer",
+        "specialization": "Cybersecurity & Network Security",
+        "subjects": [
+          "Network Security",
+          "Ethical Hacking",
+          "Cryptography"
+        ],
+        "officeRoom": "JTMK-205"
+      },
+      "contact": {
+        "extension": "3205",
+        "email": "nurulAina@psmza.edu.my",
+        "phone": "09-6952205"
+      },
+      "status": {
+        "current": "available",
+        "location": "Office JTMK-205",
+        "detail": "Available for walk-in",
+        "availableFrom": null,
+        "returnDate": null,
+        "updatedAt": "2025-07-14T07:50:00+08:00",
+        "updatedBy": "system"
+      },
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "slots": [
+            { "time": "08:00–10:00", "subject": "Network Security", "room": "Lab NET-01", "group": "IT3A" },
+            { "time": "14:00–16:00", "subject": "Ethical Hacking", "room": "Lab NET-02", "group": "IT3B" }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "slots": [
+            { "time": "10:00–12:00", "subject": "Cryptography", "room": "DK-03", "group": "IT2A" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LEC003",
+      "personal": {
+        "title": "En.",
+        "name": "Hazrul Nizam bin Hashim",
+        "photo": "/assets/photos/lec003.jpg",
+        "gender": "male"
+      },
+      "academic": {
+        "rank": "Lecturer",
+        "specialization": "Web Technologies & Software Engineering",
+        "subjects": [
+          "Web Application Development",
+          "JavaScript Frameworks",
+          "Software Engineering"
+        ],
+        "officeRoom": "JTMK-208"
+      },
+      "contact": {
+        "extension": "3208",
+        "email": "hazrulNizam@psmza.edu.my",
+        "phone": "09-6952208"
+      },
+      "status": {
+        "current": "available",
+        "location": "Office JTMK-208",
+        "detail": "In office — free after 11:00",
+        "availableFrom": null,
+        "returnDate": null,
+        "updatedAt": "2025-07-14T09:15:00+08:00",
+        "updatedBy": "self"
+      },
+      "schedule": [
+        {
+          "day": "Monday",
+          "slots": [
+            { "time": "10:00–12:00", "subject": "Web Application Development", "room": "Lab WEB-01", "group": "SE2A" }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [
+            { "time": "08:00–10:00", "subject": "JavaScript Frameworks", "room": "Lab WEB-01", "group": "SE2B" },
+            { "time": "14:00–16:00", "subject": "Software Engineering", "room": "DK-01", "group": "SE3A" }
+          ]
+        },
+        {
+          "day": "Friday",
+          "slots": [
+            { "time": "10:00–12:00", "subject": "Software Engineering", "room": "DK-01", "group": "SE3B" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LEC004",
+      "personal": {
+        "title": "Dr.",
+        "name": "Siti Rahmah binti Osman",
+        "photo": "/assets/photos/lec004.jpg",
+        "gender": "female"
+      },
+      "academic": {
+        "rank": "Senior Lecturer",
+        "specialization": "Database Systems & Cloud Computing",
+        "subjects": [
+          "Database Management Systems",
+          "Cloud Computing",
+          "Big Data Analytics"
+        ],
+        "officeRoom": "JTMK-202"
+      },
+      "contact": {
+        "extension": "3202",
+        "email": "sitiRahmah@psmza.edu.my",
+        "phone": "09-6952202"
+      },
+      "status": {
+        "current": "in_class",
+        "location": "Lab DB-01",
+        "detail": "Teaching Database Management Systems — CS2B",
+        "availableFrom": "12:00",
+        "returnDate": null,
+        "updatedAt": "2025-07-14T10:00:00+08:00",
+        "updatedBy": "system"
+      },
+      "schedule": [
+        {
+          "day": "Monday",
+          "slots": [
+            { "time": "10:00–12:00", "subject": "Database Management Systems", "room": "Lab DB-01", "group": "CS2A" },
+            { "time": "14:00–16:00", "subject": "Big Data Analytics", "room": "Lab DB-02", "group": "CS3A" }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "slots": [
+            { "time": "10:00–12:00", "subject": "Database Management Systems", "room": "Lab DB-01", "group": "CS2B" }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "slots": [
+            { "time": "08:00–10:00", "subject": "Cloud Computing", "room": "DK-02", "group": "CS3B" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LEC005",
+      "personal": {
+        "title": "Ts.",
+        "name": "Mohd Ridhwan bin Abdul Karim",
+        "photo": "/assets/photos/lec005.jpg",
+        "gender": "male"
+      },
+      "academic": {
+        "rank": "Lecturer",
+        "specialization": "Computer Networking & IoT",
+        "subjects": [
+          "Computer Networks",
+          "Internet of Things",
+          "Network Administration"
+        ],
+        "officeRoom": "JTMK-210"
+      },
+      "contact": {
+        "extension": "3210",
+        "email": "mohdRidhwan@psmza.edu.my",
+        "phone": "09-6952210"
+      },
+      "status": {
+        "current": "in_class",
+        "location": "Lab NET-01",
+        "detail": "Teaching Computer Networks — IT2A",
+        "availableFrom": "12:00",
+        "returnDate": null,
+        "updatedAt": "2025-07-14T10:00:00+08:00",
+        "updatedBy": "system"
+      },
+      "schedule": [
+        {
+          "day": "Monday",
+          "slots": [
+            { "time": "10:00–12:00", "subject": "Computer Networks", "room": "Lab NET-01", "group": "IT2A" }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [
+            { "time": "08:00–10:00", "subject": "Internet of Things", "room": "Lab IoT-01", "group": "IT3A" },
+            { "time": "14:00–16:00", "subject": "Network Administration", "room": "Lab NET-02", "group": "IT2B" }
+          ]
+        },
+        {
+          "day": "Friday",
+          "slots": [
+            { "time": "10:00–12:00", "subject": "Internet of Things", "room": "Lab IoT-01", "group": "IT3B" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LEC006",
+      "personal": {
+        "title": "Pn.",
+        "name": "Farizah binti Mohd Yusof",
+        "photo": "/assets/photos/lec006.jpg",
+        "gender": "female"
+      },
+      "academic": {
+        "rank": "Senior Lecturer",
+        "specialization": "Programming & Algorithms",
+        "subjects": [
+          "Programming Fundamentals",
+          "Data Structures & Algorithms",
+          "Object-Oriented Programming"
+        ],
+        "officeRoom": "JTMK-203"
+      },
+      "contact": {
+        "extension": "3203",
+        "email": "farizah@psmza.edu.my",
+        "phone": "09-6952203"
+      },
+      "status": {
+        "current": "in_class",
+        "location": "Lab PRG-01",
+        "detail": "Teaching Object-Oriented Programming — SE2A",
+        "availableFrom": "14:00",
+        "returnDate": null,
+        "updatedAt": "2025-07-14T12:00:00+08:00",
+        "updatedBy": "system"
+      },
+      "schedule": [
+        {
+          "day": "Monday",
+          "slots": [
+            { "time": "08:00–10:00", "subject": "Programming Fundamentals", "room": "Lab PRG-01", "group": "CS1A" },
+            { "time": "12:00–14:00", "subject": "Object-Oriented Programming", "room": "Lab PRG-02", "group": "SE2A" }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "slots": [
+            { "time": "10:00–12:00", "subject": "Data Structures & Algorithms", "room": "Lab PRG-01", "group": "CS2A" }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "slots": [
+            { "time": "08:00–10:00", "subject": "Programming Fundamentals", "room": "Lab PRG-01", "group": "CS1B" },
+            { "time": "14:00–16:00", "subject": "Object-Oriented Programming", "room": "Lab PRG-02", "group": "SE2B" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LEC007",
+      "personal": {
+        "title": "Dr.",
+        "name": "Khairul Azmi bin Che Daud",
+        "photo": "/assets/photos/lec007.jpg",
+        "gender": "male"
+      },
+      "academic": {
+        "rank": "Senior Lecturer",
+        "specialization": "Mobile Computing & Human-Computer Interaction",
+        "subjects": [
+          "Mobile Application Development",
+          "Human-Computer Interaction",
+          "UI/UX Design"
+        ],
+        "officeRoom": "JTMK-204"
+      },
+      "contact": {
+        "extension": "3204",
+        "email": "khairulAzmi@psmza.edu.my",
+        "phone": "09-6952204"
+      },
+      "status": {
+        "current": "outstation",
+        "location": "Kuala Lumpur",
+        "detail": "Attending ICT National Conference 2025",
+        "availableFrom": null,
+        "returnDate": "2025-07-16",
+        "updatedAt": "2025-07-13T17:00:00+08:00",
+        "updatedBy": "self"
+      },
+      "schedule": []
+    },
+    {
+      "id": "LEC008",
+      "personal": {
+        "title": "Ts.",
+        "name": "Noor Hafizah binti Ismail",
+        "photo": "/assets/photos/lec008.jpg",
+        "gender": "female"
+      },
+      "academic": {
+        "rank": "Lecturer",
+        "specialization": "Information Security & Digital Forensics",
+        "subjects": [
+          "Digital Forensics",
+          "Information Security Management",
+          "Penetration Testing"
+        ],
+        "officeRoom": "JTMK-212"
+      },
+      "contact": {
+        "extension": "3212",
+        "email": "noorHafizah@psmza.edu.my",
+        "phone": "09-6952212"
+      },
+      "status": {
+        "current": "outstation",
+        "location": "Putrajaya",
+        "detail": "Industry engagement — MCMC visit",
+        "availableFrom": null,
+        "returnDate": "2025-07-15",
+        "updatedAt": "2025-07-14T07:00:00+08:00",
+        "updatedBy": "self"
+      },
+      "schedule": []
+    },
+    {
+      "id": "LEC009",
+      "personal": {
+        "title": "En.",
+        "name": "Shahrul Nizam bin Sulaiman",
+        "photo": "/assets/photos/lec009.jpg",
+        "gender": "male"
+      },
+      "academic": {
+        "rank": "Lecturer",
+        "specialization": "System Administration & Virtualisation",
+        "subjects": [
+          "Operating Systems",
+          "Linux System Administration",
+          "Virtualisation Technology"
+        ],
+        "officeRoom": "JTMK-215"
+      },
+      "contact": {
+        "extension": "3215",
+        "email": "shahrulNizam@psmza.edu.my",
+        "phone": "09-6952215"
+      },
+      "status": {
+        "current": "on_leave",
+        "location": "—",
+        "detail": "Annual leave",
+        "availableFrom": null,
+        "returnDate": "2025-07-18",
+        "updatedAt": "2025-07-12T16:30:00+08:00",
+        "updatedBy": "admin"
+      },
+      "schedule": []
+    },
+    {
+      "id": "LEC010",
+      "personal": {
+        "title": "Pn.",
+        "name": "Rosnah binti Ahmad Tajudin",
+        "photo": "/assets/photos/lec010.jpg",
+        "gender": "female"
+      },
+      "academic": {
+        "rank": "Senior Lecturer",
+        "specialization": "Computer Graphics & Multimedia",
+        "subjects": [
+          "Computer Graphics",
+          "Multimedia Technology",
+          "3D Animation"
+        ],
+        "officeRoom": "JTMK-207"
+      },
+      "contact": {
+        "extension": "3207",
+        "email": "rosnah@psmza.edu.my",
+        "phone": "09-6952207"
+      },
+      "status": {
+        "current": "on_leave",
+        "location": "—",
+        "detail": "Medical leave",
+        "availableFrom": null,
+        "returnDate": "2025-07-17",
+        "updatedAt": "2025-07-14T06:45:00+08:00",
+        "updatedBy": "admin"
+      },
+      "schedule": []
+    }
+  ]
+}
